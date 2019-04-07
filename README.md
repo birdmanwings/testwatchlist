@@ -7,6 +7,7 @@ $ git clone https://github.com/birdmanwings/testwatchlist.git
 $ cd testwatchlist
 $ pipenv install --dev
 $ pipenv shell
+$ flask initdb --drop (初始化数据库)
 $ flask forge (生成虚拟数据)  
 $ flask admin (生成管理员账户)
 * Username:你的用户名
